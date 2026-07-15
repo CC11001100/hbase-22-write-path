@@ -1,0 +1,114 @@
+.panel {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+}
+
+.langTabs {
+  display: flex;
+  border-bottom: 1px solid var(--color-border);
+  background: var(--color-bg);
+}
+
+.langTab {
+  padding: 8px 14px;
+  font-size: 13px;
+  color: var(--color-text-muted);
+  border-bottom: 2px solid transparent;
+  transition: all 0.15s;
+}
+
+.langTabActive {
+  color: var(--color-brand);
+  border-bottom-color: var(--color-brand);
+  background: var(--color-surface);
+}
+
+.codeContainer {
+  margin: 0;
+  padding: 12px 0;
+  font-family: 'SF Mono', Monaco, Consolas, monospace;
+  font-size: 13px;
+  line-height: 1.6;
+  overflow-x: auto;
+  background: var(--color-surface);
+}
+
+.codeLine {
+  display: flex;
+  min-width: max-content;
+}
+
+.lineNumber {
+  flex-shrink: 0;
+  width: 44px;
+  padding-right: 16px;
+  text-align: right;
+  color: var(--color-text-muted);
+  user-select: none;
+  opacity: 0.5;
+}
+
+.codeContent {
+  padding-right: 16px;
+  white-space: pre;
+}
+
+.lineActive {
+  background: rgba(245, 173, 85, 0.18);
+}
+
+.lineActive .lineNumber {
+  color: var(--color-active);
+  opacity: 1;
+  font-weight: 700;
+}
+
+.variables {
+  border-top: 1px solid var(--color-border);
+  padding: 10px 14px;
+}
+
+.variablesTitle {
+  font-size: 12px;
+  color: var(--color-text-muted);
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.varList {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.varItem {
+  display: flex;
+  gap: 8px;
+  font-family: 'SF Mono', Monaco, monospace;
+  font-size: 13px;
+}
+
+.varName {
+  color: var(--color-brand);
+  font-weight: 600;
+}
+
+.varValue {
+  color: var(--color-text);
+}
+
+.varType {
+  color: var(--color-text-muted);
+  font-size: 11px;
+}
+
+.empty {
+  padding: 20px;
+  text-align: center;
+  color: var(--color-text-muted);
+  font-size: 13px;
+}
