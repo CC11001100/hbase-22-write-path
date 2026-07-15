@@ -1,4 +1,4 @@
-# 任务：{{TOPIC_TITLE}}
+# 任务：写路径全流程
 
 - [ ] 替换占位符（REPO_NAME / TOPIC_TITLE / TOPIC_NUMBER / TOPIC_CATEGORY）
 - [ ] 实现 `src/algorithms/stepGenerator.ts` 的 `generateSteps`
