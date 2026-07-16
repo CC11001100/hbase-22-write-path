@@ -5,7 +5,7 @@ interface FloatingBallProps {
   hubUrl?: string
 }
 
-export function FloatingBall({ hubUrl = 'https://cc11001100.github.io/hbase-hub/' }: FloatingBallProps) {
+export function FloatingBall({ hubUrl = 'https://hbase-hub.github.io/hbase-hub/' }: FloatingBallProps) {
   const [hovered, setHovered] = useState(false)
 
   return (

@@ -57,8 +57,8 @@ src/
 4. 在 `src/algorithms/stepGenerator.ts` 实现具体知识点逻辑
 5. `npm install && npm run dev` 本地预览（端口 54300）
 6. push 到 main，GitHub Actions 自动部署到
-   `https://cc11001100.github.io/hbase-NN-slug/`
-7. 在 [hbase-index](https://github.com/CC11001100/hbase-index) 追加 Topic 元数据
+   `https://hbase-hub.github.io/hbase-NN-slug/`
+7. 在 [hbase-index](https://github.com/hbase-hub/hbase-index) 追加 Topic 元数据
 
 ## 本地开发
 
